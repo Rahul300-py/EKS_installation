@@ -1,0 +1,14 @@
+sudo hostnamectl set-hostname "kmaster-node"
+exec bash
+
+reboot
+
+sudo hostnamectl set-hostname "worker-node1"
+exec bash
+
+reboot
+
+sudo hostnamectl set-hostname "worker-node2"
+exec bash
+
+reboot
